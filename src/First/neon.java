@@ -2,7 +2,7 @@ package First;
 
 public class neon {
     public static void main(String[] args) {
-        int num=9;
+        for (int num = 0; num <= 100; num++){
         int square= num*num;
         int sum = 0;
          while(square!=0){
@@ -11,13 +11,10 @@ public class neon {
         square/=10;
          }
         if(sum==num){
-            System.out.println("neon number");
+            System.out.println(num+" is neon number");
 
         }
-        else{
-            System.out.println("not neon");
-        }
-        
+    }
     }
     
     }
